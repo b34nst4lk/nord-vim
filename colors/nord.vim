@@ -578,6 +578,17 @@ call s:hi("LSPDiagnosticsError" , s:nord11_gui, "", s:nord11_term, "", "", "")
 call s:hi("LSPDiagnosticsInformation" , s:nord8_gui, "", s:nord8_term, "", "", "")
 call s:hi("LSPDiagnosticsHint" , s:nord10_gui, "", s:nord10_term, "", "", "")
 
+call s:hi("LSPDiagnosticsVirtualTextWarning", s:nord13_gui, "", s:nord13_term, "", "", "")
+call s:hi("LSPDiagnosticsVirtualTextError" , s:nord11_gui, "", s:nord11_term, "", "", "")
+call s:hi("LSPDiagnosticsVirtualTextInformation" , s:nord8_gui, "", s:nord8_term, "", "", "")
+call s:hi("LSPDiagnosticsVirtualTextHint" , s:nord10_gui, "", s:nord10_term, "", "", "")
+
+call s:hi("LSPDiagnosticsSignWarning", text=W, s:nord13_gui, "", s:nord13_term, "", "", "")
+call s:hi("LSPDiagnosticsSignError" , text=E, s:nord11_gui, "", s:nord11_term, "", "", "")
+call s:hi("LSPDiagnosticsSignInformation", text=I, s:nord8_gui, "", s:nord8_term, "", "", "")
+call s:hi("LSPDiagnosticsSignHint" , text=H, s:nord10_gui, "", s:nord10_term, "", "", "")
+
+
 " GitGutter
 " > airblade/vim-gitgutter
 call s:hi("GitGutterAdd", s:nord14_gui, "", s:nord14_term, "", "", "")
